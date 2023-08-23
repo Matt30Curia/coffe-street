@@ -1,6 +1,7 @@
 import coffe from "../asset/coffe.png"
 import star from "../asset/icons_star.png"
 import cart from "../asset/cart.png"
+import "../style/Card.css"
 
 function Rating(){
     return(

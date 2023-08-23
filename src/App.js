@@ -9,8 +9,6 @@ function App() {
       <Navbar/>
       <Hero/>
       <Card/>
-      <Card/>
-      <Card/>
     </>
   );
 }
