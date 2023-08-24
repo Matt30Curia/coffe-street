@@ -33,7 +33,7 @@ function Card(){
                 <div className="button-conatiner--card">
                     <button className="button--card">hot</button>
                     <button className="button--card">cold</button>
-                    <button class="rounded--card" > <img src ={cart} alt="" /> </button>
+                    <button class="rounded--cart" > <img src ={cart} alt="" /> </button>
                 </div>
 
             </div>

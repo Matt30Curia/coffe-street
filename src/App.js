@@ -1,4 +1,4 @@
-
+import './style/App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar';
 import Card from './components/Card'
@@ -8,7 +8,12 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-      <Card/>
+      <div className='popular-now'>
+        <Card/>
+        <Card/>
+        <Card/>
+      </div>
+        
     </>
   );
 }
