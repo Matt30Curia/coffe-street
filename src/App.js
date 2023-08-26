@@ -2,6 +2,7 @@
 import Hero from './components/Hero'
 import Navbar from './components/Navbar';
 import Popular from './components/Popular';
+import Delivery from './components/Delivery';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Popular />
-        
+      <Delivery/>
     </>
   );
 }

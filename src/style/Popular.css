@@ -21,6 +21,11 @@
 }
 
 .background--popular{
-    background-color: #FF902B;
-    height: 300px;
+    position: absolute;
+    background-color: #F9D9AA;
+    height: 40%;
+    width: 90%;
+    margin-top: 13%;
+    border-radius: 64px;
+    z-index: -1;
 }
