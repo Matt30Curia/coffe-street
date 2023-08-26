@@ -1,16 +1,16 @@
 
 import Hero from './components/Hero'
 import Navbar from './components/Navbar';
-import Card from './components/Card'
+import Popular from './components/Popular';
+import Delivery from './components/Delivery';
 
 function App() {
   return (
     <>
       <Navbar/>
       <Hero/>
-      <Card/>
-      <Card/>
-      <Card/>
+      <Popular />
+      <Delivery/>
     </>
   );
 }
