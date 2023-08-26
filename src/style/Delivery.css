@@ -1,0 +1,20 @@
+.container--delivery {
+  padding: 130px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.card--delivery{
+  padding-top: 70px;
+}
+
+.img--delivery {
+  max-height: 160px;
+  max-width: 160px;
+}
+
+.title--delivery{
+  margin-right: 55.5%;
+  position: absolute;
+}

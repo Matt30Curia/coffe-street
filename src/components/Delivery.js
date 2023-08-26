@@ -1,15 +1,16 @@
 import choseCoffee from "../asset/chose-coffee.png"
 import coffe from "../asset/coffe-cup.png"
 import truck from "../asset/track.png"
+import "../style/Delivery.css"
 
 function Card({img , text, title}){
-  return( 
+  return (
     <div className="card--delivery">
-        <img src = {img} />
-        <p>{title}</p>
-        <p>{text}</p>
+      <img className="img--delivery" alt="" src={img} />
+      <p>{title}</p>
+      <p>{text}</p>
     </div>
-)}
+  );}
 
 
 
