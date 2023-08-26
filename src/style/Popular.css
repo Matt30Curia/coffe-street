@@ -1,0 +1,26 @@
+.popular-now{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 220px;
+    padding-left: 10%;
+    padding-right: 8rem;
+}
+
+.title--popular-now{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -63%;
+    
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: 1.28px;
+
+    text-decoration: underline;
+    text-decoration-color: #FF902B;
+}
+
+.background--popular{
+    background-color: #FF902B;
+    height: 300px;
+}
