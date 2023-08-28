@@ -7,8 +7,8 @@ function Card({img , text, title}){
   return (
     <div className="card--delivery">
       <img className="img--delivery" alt="" src={img} />
-      <p>{title}</p>
-      <p>{text}</p>
+      <p className="title--delivery">{title}</p>
+      <p className="p--delivery">{text}</p>
     </div>
   );}
 
@@ -17,10 +17,22 @@ function Card({img , text, title}){
 function Delivery(){
     return (
       <div className="container--delivery">
-        <h2 className="title--delivery">How to use delivery service</h2>
-        <Card img={choseCoffee} text="there are 20+ coffees for you" />
-        <Card img={truck} text="Choose delivery service" />
-        <Card img={coffe} text="Choose delivery service" />
+        <h2 className="name--delivery">How to use delivery service</h2>
+        <Card
+          img={choseCoffee}
+          text="there are 20+ coffees for you"
+          title="choose your coffee"
+        />
+        <Card
+          img={truck}
+          text="Choose delivery service"
+          title="we delivery it to you"
+        />
+        <Card
+          img={coffe}
+          text="taste your coffee"
+          title="Enjoy your coffee"
+        />
       </div>
     );
 }
