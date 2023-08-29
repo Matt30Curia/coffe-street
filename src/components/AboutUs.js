@@ -16,6 +16,9 @@ function AboutUs() {
             main product is made with a secret recipe and available in stores
             worldwide.
           </p>
+          <button className="button--aboutus">
+            Get your coffee
+          </button>
         </div>
       </div>
     </div>
