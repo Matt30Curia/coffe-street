@@ -1,0 +1,24 @@
+.background--aboutus {
+  display: flex;
+  align-items: flex-start;
+  /* Allinea i contenuti all'inizio */
+}
+
+.img--aboutus {
+
+  /* Impedisce all'immagine di restringersi */
+  /* Aggiungi altri stili all'immagine come larghezza massima, margine, ecc. */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  /* Aggiungi margine per separare l'immagine dal testo */
+}
+
+.title--aboutus,
+.content--aboutus {
+  margin-top: 10px;
+  /* Aggiungi margine superiore tra titolo e contenuto */
+}
