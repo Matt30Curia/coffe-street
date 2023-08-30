@@ -5,6 +5,7 @@ import Popular from './components/Popular';
 import Delivery from './components/Delivery';
 import AboutUs from './components/AboutUs'
 import SpecialMenu from './components/SpecialMenu';
+import Bonus from './components/Bonus';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Delivery/>
       <AboutUs/>
       <SpecialMenu />
+      <Bonus/>
     </>
   );
 }

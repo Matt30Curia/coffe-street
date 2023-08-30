@@ -1,0 +1,48 @@
+.continer--bonus {
+  margin-top: 150px;
+  background-position-x: center;
+  background-image: url("../asset/bonus.png") ;
+  background-size: 85%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  
+
+}
+
+
+.title--bonus {
+  color: #FFF;
+ 
+  text-align: center;
+  padding-top: 9%;
+
+  font-size: 32px;
+
+  font-weight: 600;
+
+  letter-spacing: 1.28px;
+}
+
+
+
+.email--bonus{
+  margin-left: 30%;
+  filter: drop-shadow(6px 2px 24px rgba(0, 0, 0, 0.13));
+  border: none;
+  text-indent: 20px;
+  border-radius: 35px;
+  background-color: FFF;
+  height: 55px;
+  width: 40%;
+}
+
+.cart {
+  position: absolute;
+  padding-top: 5px;
+  padding-left: 26px;
+}
+
+.email--bonus:focus {
+  outline: none;
+}
