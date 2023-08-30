@@ -1,0 +1,88 @@
+.background--aboutus {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background: #FFF;
+  display: flex;
+  align-items: flex-start;
+  /* Allinea i contenuti all'inizio */
+}
+
+.img--aboutus {
+  padding-left: 15%;
+  width: 30%;
+  height: auto;
+  position: absolute;
+  margin-top: -100px;
+  /* Impedisce all'immagine di restringersi */
+  /* Aggiungi altri stili all'immagine come larghezza massima, margine, ecc. */
+}
+
+.text-container {
+  padding-top: 50px;
+  padding-left: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  /* Aggiungi margine per separare l'immagine dal testo */
+}
+
+.title--aboutus
+{
+  
+  margin-right: 50%;
+}
+.content--aboutus {
+  margin-right: 20%;
+  margin-top: 10px;
+  color: var(--light, #7E7D7A);
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+}
+
+
+.button--aboutus{
+
+    margin-top: 20px;
+    background-color: var(--secondary, #2F2105);
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, #2F2105 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+
+    letter-spacing: .25px;
+
+    padding: 2px 24px;
+
+    transition: all 250ms;
+
+
+  }
+
+  .button--aboutus:hover {
+    transform: scale(1.05) rotate(-1deg);
+    background: #FF902B;
+    color: white;
+  }
+
+  .button--aboutus:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+
+  .button--aboutus:focus {
+    outline: none;
+
+  }
+
+  .button--aboutus:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
