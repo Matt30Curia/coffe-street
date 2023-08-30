@@ -1,13 +1,20 @@
-.grid--special  {
+.grid--special {
+  padding-left: 100px;
+  margin-top: 200px;
   display: grid;
   grid-template-columns: 30% 33% 33%;
   grid-template-rows: repeat(2, 50%);
-  column-gap: 10px;
-  row-gap: 10px;
+
+  row-gap: 30px;
 }
 
-.box {
-  background-color: brown;
-  height: 300px;
-  width: 100%;
+.title--special {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 12px;
+  font-size: 32px;
+  letter-spacing: 1.28px;
+
+  text-decoration: underline;
+  text-decoration-color: #FF902B;
 }
